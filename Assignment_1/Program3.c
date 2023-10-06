@@ -5,12 +5,11 @@
 void Display()
 {
     int i = 0;
-     i = 5;
+    i = 5;
 
-    for (i=5; i >= 1; i--)
+    for (i=5; i > 0; i--)
     {
-        printf("%d", i);
-        
+        printf("%d ", i);
     }
 }
 

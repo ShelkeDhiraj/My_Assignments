@@ -4,7 +4,7 @@
 
 int Divide(int iNo1, int iNo2)
 {
-    auto int iAns = 0;
+    auto int iAns = 0;      
 
     if(iNo2 == 0)
     {
@@ -19,7 +19,7 @@ int Divide(int iNo1, int iNo2)
 int main()
 {
     auto int iValue1 = 15;
-    auto int iValue2 = 0;
+    auto int iValue2 = 5;
     auto int iRet = 0;
 
     iRet = Divide(iValue1, iValue2);
